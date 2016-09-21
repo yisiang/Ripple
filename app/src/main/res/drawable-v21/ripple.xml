@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    android:color 水波紋顏色
+    android:id 讓系統不會真的繪製，並告知波紋的繪製邊界
+    android:drawable 顏色隨便設(無意義)
+-->
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#FF0"
+    >
+    <item android:id="@android:id/mask"
+        android:drawable="@android:color/holo_blue_dark"/>
+</ripple>
